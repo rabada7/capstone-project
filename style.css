@@ -1,0 +1,138 @@
+body {
+    display: block;
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #e4f9f5;
+    height: 100vh;
+}
+div{
+    display: block;
+}
+h1{
+    font-family: 'Pacifico', cursivr;
+    font-size: 5.65rem;
+}
+
+p {
+    line-height: 2;
+  }
+  a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
+  
+  a:hover {
+    color: #eaf6f6;
+  }
+    
+.top-cloud{
+        position: absolute;
+        right: 150px;
+        top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 600px;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+h2{
+    
+    font-weight: bold;
+    
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+
+.middle-container{
+    display: grid;
+    justify-content: center;
+}
+.parent{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        width: 50%;
+        margin: 100px auto 0 auto;
+        text-align: left;
+        row-gap: 2rem;
+    }
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.ve{
+    display: flex;
+    justify-self: center;
+    height: 250px;
+    width: 250px;
+}
+    p {
+        display: block;
+        font-size: 1rem;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .contact-message {
+        width: 40%;
+        margin: 40px auto 60px;
+    }
+    
+    .bottom{
+        background-color: #66bfbf;
+        padding: 50px 0 20px;
+    }
+    .profile{
+        width: 980px;
+        height: 435.38px;
+        justify-content: center;
+    }
+    .me{
+        display: flex;
+        justify-self: center;
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+        padding: 100px;
+    }
+    .btn{
+        background-color: rgb(140, 140, 214);
+        color: #eaf6f6;
+        border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+    .contact-me{
+        padding: 100px;
+    }
